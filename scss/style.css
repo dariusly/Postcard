@@ -1,0 +1,202 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  background-image: url("images/fone.png");
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.postcard {
+  background-color: #cc8813;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+}
+
+.postcard__header {
+  padding: 20px;
+  background-color: #cc8813;
+  color: #fff;
+}
+
+.postcard__title {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.postcard__subtitle {
+  font-size: 1.2rem;
+  margin: 10px 0 0;
+}
+
+.postcard__content {
+  padding: 20px;
+}
+
+.postcard__image-wrapper {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.postcard__image {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+}
+
+.postcard__message {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.postcard__footer {
+  padding: 20px;
+  background-color: #324661;
+  color: #fff;
+}
+
+.postcard__decorations {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.postcard__decoration {
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+} /* Загальні стилі */
+body {
+  margin: 0;
+  font-family: inherit;
+  color: #333;
+}
+
+.page {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* Стиль для фонового зображення */
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover; /* Забезпечує повне покриття екрану */
+  z-index: -1; /* Відправляє зображення на задній план */
+}
+
+/* Листівка (залишаємо без змін) */
+.postcard {
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 15px;
+  padding: 20px;
+  max-width: 500px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.postcard__header {
+  margin-bottom: 10px;
+}
+
+.postcard__title {
+  font-size: 2rem;
+  color: #ffffff;
+  text-shadow: 1px 1px 3px rgb(255, 255, 255);
+}
+
+.postcard__content {
+  margin: 20px 0;
+}
+
+.postcard__image-wrapper {
+  margin-bottom: 15px;
+}
+
+.postcard__image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.postcard__message {
+  font-family: bold;
+  font-size: 1.2rem;
+  color: #23439b;
+}
+
+.postcard__footer {
+  margin-top: 15px;
+  font-size: 0.9rem;
+  color: #fdfeff;
+}
+
+.postcard__decorations {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.postcard__decoration {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.postcard__decoration--snowflake {
+  background: #a8dadc;
+}
+
+.postcard__decoration--star {
+  background: #ffbe0b;
+}
+
+.postcard__decoration--tree {
+  background: #06d6a0;
+}
+
+.postcard__decoration--snowflake {
+  background-image: url("https://static.vecteezy.com/system/resources/thumbnails/019/922/857/small/illustration-of-3d-snowflake-png.png");
+}
+
+.postcard__decoration--star {
+  background-image: url("https://www.pngplay.com/wp-content/uploads/8/Gold-Vector-Star-Download-Free-PNG.png");
+}
+
+.postcard__decoration--tree {
+  background-image: url("https://pngimg.com/d/christmas_tree_PNG12.png");
+}
+
+.postcard__signature {
+  font-style: italic;
+  font-size: 1rem;
+}/*# sourceMappingURL=style.css.map */
